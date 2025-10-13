@@ -417,7 +417,7 @@ https://chatgpt.com/s/t_68e7fed2efac8191978550ed9e25aebd
 
 **Визуализация на слайде:** https://gamma.app/docs/-imv3x1d8pqe74ib
 
-![Analiticheskij-obzor-mirovoj-avtomobilnoj-otrasli.png](media/image1.png)
+![Изображение](korol-of-artem-js\volga_it\Analiticheskij-obzor-mirovoj-avtomobilnoj-otrasli.png)
 
 ### Задача 4: [Вывод]
 
