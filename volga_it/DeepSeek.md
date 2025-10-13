@@ -412,7 +412,7 @@
 
 [Ссылка на оригинальный ответ](https://chatgpt.com/s/t_68e7fed2efac8191978550ed9e25aebd)
 
-**Визуализация на слайде:** https://gamma.app/docs/-imv3x1d8pqe74ib
+[Визуализация на слайде](https://gamma.app/docs/-imv3x1d8pqe74ib)
 
 ![Изображение](Analiticheskij-obzor-mirovoj-avtomobilnoj-otrasli.png)
 
