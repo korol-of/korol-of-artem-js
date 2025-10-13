@@ -5,7 +5,7 @@
 
 ## 1. Задание: Оптимизатор генерации
 
-### 1 Задача: Разработка 3-х промтов
+### Задача 1: Разработка 3-х промтов
 
 #### **Промт 1 — Структурированный и формальный**
  
@@ -413,9 +413,6 @@
 [Ссылка на оригинальный ответ](https://chatgpt.com/s/t_68e7fed2efac8191978550ed9e25aebd)
 
 [Визуализация на слайде](https://gamma.app/docs/-imv3x1d8pqe74ib)
-
-<img src="Analiticheskij-obzor-mirovoj-avtomobilnoj-otrasli.png
-" alt="Изображение"/>
 
 ![Изображение](Analiticheskij-obzor-mirovoj-avtomobilnoj-otrasli.png)
 
