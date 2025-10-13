@@ -414,6 +414,9 @@
 
 [Визуализация на слайде](https://gamma.app/docs/-imv3x1d8pqe74ib)
 
+<img src="Analiticheskij-obzor-mirovoj-avtomobilnoj-otrasli.png
+" alt="Изображение"/>
+
 ![Изображение](Analiticheskij-obzor-mirovoj-avtomobilnoj-otrasli.png)
 
 ### Задача 4: Вывод
