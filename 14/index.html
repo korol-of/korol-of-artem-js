@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Практика 14</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="counter-block">
+      <button id="minus">-</button>
+      <h1 id="counter">0</h1>
+      <button id="plus">+</button>
+      <input type="number" id="step" value="1">
+    </div>
+    <p id="status">Низкий заряд</p>
+  </div>
+
+  <script>
+    const plusButton = document.querySelector('#plus');
+    const minusButton = document.querySelector('#minus');
+    const counter = document.querySelector('#counter');
+
+    //Переменная для шага счетчика
+    const stepInput = document.querySelector('#step');
+    //Переменная для статуса батареи
+    const battery = document.querySelector('#status');
+
+    // Функция изменения цвета шрифта счетчика
+    const updateCounterColor = () => {
+      // Переменная для числового значения счетчика на момент объявления функции
+      const counterValue = Number(counter.innerHTML);
+      
+      if (counterValue === 0) {
+        counter.style.color = 'black';
+      } else if (counterValue > 0) {
+        counter.style.color = 'green';
+      } else {
+        counter.style.color = 'red';
+      }
+    };
+    
+    // Функция изменения текста статуса заряда
+    const updateBatteryStatus = () => {
+      const counterValue = Number(counter.innerHTML);
+  
+      if (counterValue <= 20) {
+        battery.textContent = 'Низкий заряд';
+      } else if (counterValue >= 20 && counterValue <= 80) {
+        battery.textContent = 'Средний заряд';
+      } else if (counterValue >= 80) {
+        battery.textContent = 'Полный заряд!';
+      }
+    }
+
+    plusButton.onclick = () => {
+      const step = Number(stepInput.value);
+      counter.innerHTML = Number(counter.innerHTML) + step;
+      updateCounterColor();
+      updateBatteryStatus();
+    };
+
+    minusButton.onclick = () => {
+      const step = Number(stepInput.value);
+      counter.innerHTML = Number(counter.innerHTML) - step;
+      updateCounterColor();
+      updateBatteryStatus();
+    };
+
+    updateCounterColor();
+    updateBatteryStatus();
+  </script>
+</body>
+
+</html>
